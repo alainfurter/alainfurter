@@ -1,0 +1,147 @@
+/* ---------------------- */
+/* nav */
+
+nav {
+  z-index: 99;
+  background-color: var(--background-color);
+  width: 100%;
+  height: 80px;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav > .main-nav-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+nav > .main-nav-container > .logo-container {
+  height: 40px;
+  margin: 20px 0px 20px 30px;
+}
+
+nav > .main-nav-container > .logo-container > img {
+  height: 100%;
+  min-width: 300px;
+}
+
+nav > .main-nav-container > .links-container {
+  margin-right: 50px;
+}
+
+nav > .main-nav-container > .links-container > ul {
+  height: 100%;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+nav > .main-nav-container > .links-container > ul > li {
+  list-style: none;
+}
+
+nav > .main-nav-container > .links-container > ul > li > a,
+button {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(132, 132, 132);
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  padding: 8px 15px;
+  font-size: 16px !important;
+}
+
+nav > .main-nav-container > .links-container > ul > li > a:hover,
+button:hover {
+  /* color: beige; */
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: transparent;
+  padding: 8px 15px;
+}
+
+/* Special Projects */
+
+nav > .special-projects-container {
+  margin-right: 50px;
+  margin-left: 20px;
+}
+
+nav > .special-projects-container > ul {
+  height: 100%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+nav > .special-projects-container > ul > li {
+  list-style: none;
+  display: flex;
+}
+
+nav > .special-projects-container > ul > li > a,
+button {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(132, 132, 132);
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  text-align: center;
+}
+
+nav > .special-projects-container > ul > li > a > div {
+  width: 50px;
+}
+
+nav > .special-projects-container > ul > li > img {
+  height: 20px;
+  width: 30px;
+  border-radius: 5px;
+  margin-top: 6px;
+  margin-right: 5px;
+}
+
+@media (max-width: 930px) {
+  nav {
+    flex-direction: column;
+    gap: 0px;
+    height: 120px;
+  }
+  .home-container {
+    gap: 30px;
+  }
+  .links-container {
+    margin-left: 25px;
+  }
+  .special-projects-container {
+    padding-left: 25px;
+    justify-content: flex-end;
+  }
+  #special-projects {
+    justify-content: flex-end;
+    margin-right: 5px;
+  }
+}
+
+@media (max-width: 630px) {
+  nav {
+    height: 160px;
+  }
+  .main-nav-container {
+    flex-direction: column;
+    gap: 0px !important;
+  }
+  .special-projects-container {
+    padding-left: 20px;
+    justify-content: flex-start;
+  }
+  #special-projects {
+    justify-content: flex-start;
+    margin-right: 5px;
+  }
+}

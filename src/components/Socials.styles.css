@@ -1,0 +1,36 @@
+/* ---------------------- */
+/* socials */
+
+.socials {
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  position: absolute;
+  top: 40%;
+  margin-left: 20px;
+  z-index: 99;
+}
+
+.socials > .social-image-container {
+  width: 25px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.socials > .social-image-container > img {
+  width: 100%;
+  -webkit-filter: invert(80%);
+  opacity: 60%;
+}
+
+@media (max-width: 930px) {
+}
+
+@media (max-width: 630px) {
+  .socials {
+    margin-left: 20px;
+    width: 30px;
+  }
+}
