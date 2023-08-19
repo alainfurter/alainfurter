@@ -6,12 +6,18 @@
   flex-direction: column;
   justify-content: space-evenly;
   margin-bottom: 10%;
+  /* border: 1px solid blue; */
+  margin-top: 20%;
+  /* margin-top: 40px; */
+  /* overflow-y: hidden; */
 }
 
 .home-section > .home-container {
+  height: 100%;
   background-color: var(--background-color);
   display: flex;
   justify-content: space-between;
+  /* border: 1px solid red; */
 }
 
 .home-section > .home-container > .description-container,
@@ -147,7 +153,7 @@
 @media (max-width: 630px) {
   .home-section {
     width: 90%;
-    margin: 80px 30px !important;
+    margin: 40px 10px 10px 10px !important;
   }
   .hero-container > img {
     width: 280px !important;
@@ -161,7 +167,7 @@
 @media (max-width: 480px) {
   .home-section {
     width: 90%;
-    margin: 100px 30px 100px 30px !important;
+    margin: 40px 10px 10px 10px !important;
   }
   .hero-container > img {
     min-width: 200px !important;
@@ -169,7 +175,23 @@
     border-radius: 6em 3em !important;
     margin-left: 20px;
   }
+  .description-container > h1 {
+    font-size: 30px;
+  }
+
+  .description-container > p {
+    font-size: 16px;
+  }
+
   .description-container > a {
     padding-left: 0 !important;
+  }
+}
+
+@media (max-width: 410px) {
+  .home-section {
+    width: 90%;
+    margin: 40px 10px 10px 10px !important;
+    /* padding-top: 50vh; */
   }
 }

@@ -17,7 +17,7 @@ const Home = () => {
                 <img src="images/avatar_trans.png" alt="Avatar Image"/>
             </div>
         </div>
-        <div className="scroll-container">
+        {/* <div className="scroll-container">
             <div className="mouse">
               <div className="wheel"></div>
             </div>
@@ -32,7 +32,7 @@ const Home = () => {
                 <i className="fa-solid fa-chevron-down"></i>
               </div>
             </div>
-          </div>
+          </div> */}
     </section>
     )
 }
