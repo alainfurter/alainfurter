@@ -1,5 +1,9 @@
 ### Hi there 👋
 
+I am a Full Stack and Web3 developer (formerly also iOS dev) from Switzerland.
+Currently I extend my expertise as a AI / ML engineer training models and implementing use cases (classification, LLM, RAG, ...)
+From previous work I have an extenise finance and leadership background.
+
 <!--
 **alainfurter/alainfurter** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
