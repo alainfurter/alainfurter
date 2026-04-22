@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 I am a Full Stack and Web3 developer (formerly also iOS dev) from Switzerland.
-Currently I extend my expertise as a AI / ML engineer training models and implementing use cases (classification, LLM, RAG, ...)
+Also having expertise as a AI / ML engineer training models and implementing use cases (classification, LLM, RAG, Agentic AI, ...)
 From previous work I have an extenise finance and leadership background.
 
 <!--
